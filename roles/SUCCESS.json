@@ -1,0 +1,18 @@
+{
+  "name": "SUCCESS",
+  "description": "2016/11/30時点で成功するPHPインストール",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+  },
+  "override_attributes": {
+    "php": {
+      "version" : "5.4.45-11.el6.remi"
+    }
+  },
+  "chef_type": "role",
+  "run_list": [
+    "php::install"
+  ],
+  "env_run_lists": {
+  }
+}
